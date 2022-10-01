@@ -1,0 +1,27 @@
+{
+    "name": "open-orchestrator",
+    "version": "0.0.1",
+    "description": "Open source payment orchestration API.",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -r ts-node/register test/*.test.ts"
+    },
+    "keywords": [
+        "open-source",
+        "payment",
+        "orchestration",
+        "api"
+    ],
+    "author": "Jaf Aguiar",
+    "license": "ISC",
+    "dependencies": {
+        "typescript": "^4.8.4"
+    },
+    "devDependencies": {
+        "@types/chai": "^4.3.3",
+        "@types/mocha": "^10.0.0",
+        "chai": "^4.3.6",
+        "mocha": "^10.0.0",
+        "ts-node": "^10.9.1"
+    }
+}
